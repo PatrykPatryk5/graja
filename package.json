@@ -1,0 +1,88 @@
+{
+  "name": "GRAJEK",
+  "version": "1.0.0-beta",
+  "description": "Very simple discord music bot with the discord.js with Song Name playing. It can able to play music with the song name",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "rm-logs": "rm logs.log",
+    "lint": "prettier --check .",
+    "deploy": "node deploy/deployGlobal",
+    "guild": "node deploy/deployGuild",
+    "destroy-guild": "node deploy/destroyGuild",
+    "destroy-global": "node deploy/destroyGlobal",
+    "ddev": "cd dashboard && npm run dev",
+    "dbuild": "cd dashboard && npm run build && npm run export",
+    "dstart": "cd dashboard && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SudhanPlayz/Discord-MusicBot.git"
+  },
+  "engines": {
+    "node": ">=16.x <=16.16"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord-musicbot",
+    "music",
+    "discord-music"
+  ],
+  "authors": [
+    "SudhanPlayz",
+    "DarrenOfficial"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SudhanPlayz/Discord-MusicBot/issues"
+  },
+  "homepage": "https://github.com/SudhanPlayz/Discord-MusicBot#readme",
+  "dependencies": {
+    "@discordjs/builders": "*",
+    "@discordjs/rest": "*",
+    "audit": "^0.0.6",
+    "axios": "*",
+    "better-erela.js-apple": "*",
+    "better-erela.js-spotify": "*",
+    "colors": "*",
+    "discord-api-types": "*",
+    "discord-together": "*",
+    "discord.js": "*",
+    "dotenv": "*",
+    "ejs": "*",
+    "erela.js": "*",
+    "erela.js-deezer": "*",
+    "erela.js-facebook": "*",
+    "erela.js-filters": "*",
+    "express": "*",
+    "express-rate-limit": "*",
+    "express-session": "*",
+    "express-ws": "*",
+    "fix": "^0.0.6",
+    "js-yaml": "*",
+    "jsoning": "*",
+    "lodash": "*",
+    "moment": "*",
+    "moment-duration-format": "*",
+    "node-fetch": "*",
+    "npm": "^10.8.2",
+    "os": "*",
+    "passport": "*",
+    "passport-discord": "*",
+    "poru": "*",
+    "pretty-ms": "*",
+    "rlyrics": "*",
+    "systeminformation": "*",
+    "update": "^0.7.4",
+    "winston": "*",
+    "youtube-sr": "*"
+  },
+  "devDependencies": {
+    "prettier": "*"
+  },
+  "volta": {
+    "node": "16.15.1",
+    "yarn": "3.3.0"
+  }
+}
